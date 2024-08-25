@@ -6,6 +6,11 @@ body {
     background-color: #eee;
 }
 
+.menu{
+    display: none;
+   
+}
+
 .header {
     background-color:#fff   ;
     padding: 20px 0;
@@ -58,4 +63,16 @@ body {
     color: #fff;
     background-color   : var(--mainColor);
     border: 2px solid var(--mainColor);
+}
+
+/* media header */
+@media screen and (max-width:992px) {
+    .nav{
+        display: none;
+    }
+    .menu{
+        display: block;
+        order: 2;
+    }
+    
 }

@@ -30,13 +30,13 @@ body {
     color: var(--mainColor);
 }
 
- .nav  ul {
+ .navbar  ul {
     display: flex;
     gap: 16px;
 }
 
 
- .nav ul li a {
+ .navbar ul li a {
     color: #101928;
 }
 .active{
@@ -67,7 +67,7 @@ body {
 
 /* media header */
 @media screen and (max-width:992px) {
-    .nav,
+    .navbar,
     .auth{
         display: none;
     }

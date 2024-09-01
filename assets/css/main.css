@@ -101,6 +101,189 @@ body {
 
 }
 
+
+/*  Home  */
+
+.titlehome {
+    color: #545BE8;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+  }
+  
+  .subtitlehome {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .subtitlehome span {
+    color: #545BE8;
+  }
+  
+  .descriptionhome {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  .play{
+    width: 100px ;
+    height: 100px ;
+    font-size: 24px;
+    color: var(--mainColor);
+    transition: color 0.3s ease-in-out;
+  }
+  
+
+/* end Home   */ 
+
+/* Start People */
+
+
+
+.People-course-section {
+    display: flex;
+    align-items: center;
+    background-color: var(--mainColor);
+    padding: 100px;
+    justify-content: center;
+    color: white;
+    
+}
+
+.People-image-container {
+    position: relative;
+    margin-right: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+.People-content {
+    max-width: 400px;
+}
+
+.People-content h3 {
+    color: #f8b400;
+    margin-bottom: 5px;
+}
+
+.People-content h1 {
+    margin: 0;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.People-content p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.People-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.People-stat {
+    text-align: center;
+}
+
+.People-stat h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #f8b400;
+}
+
+.People-stat p {
+    margin: 5px 0 0;
+}
+
+/* End people */
+
+
+/* Start Courses */
+
+.courses{
+    
+}
+.courses-row{
+    gap: 40px;
+}
+
+.course-items,
+.course-description {
+    width:calc( (100% - 40px )/2);
+
+}
+
+.courses-items {
+    display: flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.course{
+    width: calc( (100% - 20px ) /2);
+    color:#fff;
+    
+}
+.course-card{
+    position: relative;
+    box-shadow: 6px 8px 10px  #000;
+  
+}
+
+.course-info span:first-of-type {
+   background-color: var(--mainColor);
+   padding: 10px;
+   
+}
+
+
+.course-info span:last-of-type { 
+    align-self: flex-end;
+}
+
+.course img {
+    width: 100%;
+    filter: brightness(50%);
+    display: flex;
+    
+}
+
+
+.course-info {
+    position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 20px ;
+    align-items: flex-start;
+
+  
+}
+
+.course-details{
+    color: #000;
+}
+
+.course-details .row:nth-child(2){
+    justify-content: flex-direction;
+}
+.courses-description{
+    gap: 20px;
+}
+/* End Courses */
+
 /* testimonials */
 
 .testimonials {

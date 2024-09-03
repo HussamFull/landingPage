@@ -298,6 +298,7 @@ body {
 
 .People-course-section {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-color: var(--mainColor);
     padding: 100px;
@@ -309,6 +310,7 @@ body {
 .People-image-container {
     position: relative;
     margin-right: 20px;
+    flex-wrap: wrap;
 
 }
 
@@ -357,6 +359,13 @@ body {
 
 .People-stat p {
     margin: 5px 0 0;
+}
+
+
+@media screen and (max-width:768px) {
+    .People-image-container {
+        width: 100%;
+    }
 }
 
 /* End people */

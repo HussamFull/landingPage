@@ -104,10 +104,24 @@ body {
 
 /*  Home  */
 
+.home .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;  
+}
+.banner{
+    width: 50%;
+}
+.home-image{
+   
+}
+
+
+
 .titlehome {
     color: #545BE8;
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 54px;
     margin-bottom: 20px;
    
   }
@@ -135,6 +149,75 @@ body {
   
 
 /* end Home   */ 
+
+
+
+
+/* Start  Why Choose Us */
+
+.why-choose-us {
+    background-color:#F5F5F5;
+    text-align: center;
+    padding: 50px;
+    height: 500px;
+  }
+
+.what-we-give {
+    background-color:#F5F5F5;
+    text-align: center;
+    padding: 50px;
+    
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+    
+
+  }
+  
+  .card {
+    background-color: #545BE8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    color: #fff;
+  }
+  .card1 {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+  }
+
+
+  
+  .card i {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .card p {
+    color: #fff;
+  }
+  .what{
+    color: #545BE8;
+  }
+
+/* end  Why Choose Us   */ 
+
+
+
+
+
 
 /* Start People */
 
@@ -215,9 +298,9 @@ body {
     gap: 40px;
 }
 
-.course-items,
-.course-description {
-    width:calc( (100% - 40px )/2);
+.courses-items,
+.courses-description {
+    width:calc((100% - 20px) / 2);
 
 }
 
@@ -279,9 +362,27 @@ body {
 .course-details .row:nth-child(2){
     justify-content: flex-direction;
 }
-.courses-description{
+.courses-description {
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
+.sub-heading {
+    color: blue;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+.main-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+.descriptioncour {
+    color: #888;
+  }
+
 /* End Courses */
 
 /* testimonials */

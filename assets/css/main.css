@@ -190,12 +190,15 @@ body {
 
 .cards {
     display: flex;
-
     justify-content: space-around;
     gap: 20px;
     margin-top: 30px;
+}
 
-
+.Card_Container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
 }
 
 .card {
@@ -234,23 +237,20 @@ body {
     color: #545BE8;
 }
 
-.card2 {
-    display: flex;
-}
 
 @media screen and (max-width:580px) {
     .cards {
         width: 100%;
         flex-wrap: wrap;
     }
+    .Card_Container {
+        flex-direction: column;
+    }
 }
 
 
-@media screen and (max-width:1000px) {
 
-    .card2 {
-        flex-direction: column;
-    }
+@media screen and (max-width:1000px) {
 
     .card,
     .card1 {
@@ -259,7 +259,6 @@ body {
         flex-wrap: wrap;
     }
 }
-
 @media screen and (max-width:768px) {
 
     .card,
@@ -267,6 +266,17 @@ body {
         width: 100%;
         flex-wrap: wrap;
     }
+}
+
+
+@media screen and (max-width:1000px) {
+    .cards {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px) {
+   
 }
 
 

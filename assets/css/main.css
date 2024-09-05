@@ -373,7 +373,9 @@ body {
 
 /* Start Courses */
 
-.courses {}
+.courses {
+    padding: 40px;
+}
 
 .courses-row {
     gap: 40px;

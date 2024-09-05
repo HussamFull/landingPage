@@ -467,6 +467,21 @@ body {
     color: #888;
 }
 
+@media screen and (max-width:768px) {
+    .courses-items,courses-description
+     {
+        width: 100%;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:570px) {
+    .course
+     {
+        width: 100%;
+        gap: 20px;
+    }
+}
+
 /* End Courses */
 
 /* testimonials */
